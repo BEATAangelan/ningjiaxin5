@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#adf"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </com.youth.banner.Banner>
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:text="你看这个人嘴上说着喜欢我，可又让我这么难过."
+        android:background="#adf"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <me.maxwin.view.XListView
+        android:id="@+id/xlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </me.maxwin.view.XListView>
+</LinearLayout>
